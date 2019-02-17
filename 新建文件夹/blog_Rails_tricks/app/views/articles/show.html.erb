@@ -1,0 +1,28 @@
+<div class="issue-list-header">
+    <div class="container clearfix">
+        <h1 class="issue-list-heading">所有活动都在下面了...</h1>
+    </div>
+</div>
+
+<div class="container mt-5 mb-5">
+    <p>
+      <strong>Title:</strong><br/>
+      <%= @article.title %>
+    </h3>
+    <p>
+      <strong>Text:</strong><br/>
+      <%= @article.text %>
+    </h5>
+    <hr>
+
+    <h3 class="mb-2">Comments</h3>
+    <div class="mb-4 border border-bottom-0">
+        <%= render @article.comments %>
+    </div>
+    <h4>Add a comment:</h4>
+    <%= render 'comments/form' %>
+    <div class="text-right">
+    <%= link_to 'Edit', edit_article_path(@article), class:'btn btn-sm btn-danger' %>
+    <%= link_to 'Back', articles_path, class:'btn btn-sm btn-success' %>
+    </div>
+</div>
