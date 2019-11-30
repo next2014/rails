@@ -67,7 +67,6 @@ GEM
     crass (1.0.4)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
-    dry-inflector (0.1.2)
     erubi (1.7.1)
     excon (0.62.0)
     execjs (2.7.0)
@@ -125,7 +124,6 @@ GEM
       fog-xml (~> 0.1)
       ipaddress (~> 0.8)
     fog-brightbox (0.16.1)
-      dry-inflector
       fog-core
       fog-json
       mime-types
