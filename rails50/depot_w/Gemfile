@@ -65,7 +65,7 @@ gem 'activemodel-serializers-xml'
 
 #START:plugins
 #START:haml
-gem 'kaminari', '~> 1.0'
+gem 'kaminari', '~> 1.2'
 gem 'activemerchant', '~> 1.58'
 gem 'haml', '~> 4.0'
 #END:haml
